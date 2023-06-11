@@ -5,18 +5,18 @@ var request = require('request');
 var Q = require('q');
 var cheerio = require('cheerio');
 
-var baseUrl = 'https://news.ycombinator.com';
-var baseApiUrl = 'https://hacker-news.firebaseio.com/v0';
+var baseUrl = 'https://www.silive.com';
+var baseApiUrl = 'https://www.silive.com';
 
 var apiUrls = {
-  topStories: baseUrl + '/',
-  newStories: baseUrl + '/newest',
-  showStories: baseUrl + '/show',
-  askStories: baseUrl + '/ask',
-  jobStories: baseUrl + '/jobs',
-  bestStories: baseUrl + '/best',
-  activeStories: baseUrl + '/active',
-  noobStories: baseUrl + '/noobstories',
+  topStories: baseUrl + '/#section__top_stories',
+  newStories: baseUrl + '/#section__news',
+  sportsStories: baseUrl + '/#section__sports',
+  lifeStories: baseUrl + '/#section__life_and_culture',
+  entertainmentStories: baseUrl + '/entertainment/',
+  foodStories: baseUrl + '/food/',
+  crimeStories: baseUrl + '/crime-safety/',
+  educationStories: baseUrl + '/education/',
   story: baseApiUrl + '/item/{id}}.json'
 };
 
