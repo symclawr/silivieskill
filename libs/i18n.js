@@ -1,6 +1,6 @@
 module.exports = {
   help: 'Help',
-  helpInstructions: 'You can ask me for "top stories", "new", "show", "ask", "job", "best", "active", or "noob" Hacker News stories.',
+  helpInstructions: 'You can ask me for "top stories", "new", "sports", "crime", "education", "food", "entertainment", or "noob" Hacker News stories.',
   seeHelpCard: 'See the Help card in the Alexa app for additional information.',
   helpContact: 'For reporting bugs or suggestions, please email m@moogs.io',
   helpPrompt: 'What stories would you like to hear?',
